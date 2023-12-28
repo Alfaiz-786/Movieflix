@@ -1,5 +1,1 @@
-{
-  "build": {
-    "commands": ["pnpm install --no-frozen-lockfile"]
-  }
-}
+
