@@ -12,7 +12,9 @@ const ProductCard = (curElem) => {
         className={styles.productImage}
       />
       <div className={styles.productInfo}>
-        <h2 className={styles.productTitle}>{product_title}</h2>
+        <h2 className={styles.productTitle}>
+          {product_title.substring(0, 25)}...
+        </h2>
         <p className={styles.productPrice}>{product_price}</p>
         <a
           href={product_url}
